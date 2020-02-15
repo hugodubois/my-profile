@@ -1,0 +1,89 @@
+body { 
+	background-color: white
+	color: black;
+	font-family: Arial, serif;
+	text-align : center;
+}
+h1, h2 {
+	font-family: Helvetica;
+}
+h1 {
+	color : blue;
+	font-family: Times, serif;
+}
+h2 {
+	font-weight:lighter;
+	color : black;
+}
+a {
+	text-decoration: none;
+	color: rgb(120,150,170);
+	font-size: 40px;
+}
+a:hover {
+	color:blue;
+	font-weight:bold;
+}
+div {
+	margin: 20px 
+}
+#Pic {
+	width: 200px;
+	border-radius: 50%
+}
+#FirstDiv {
+	background: rgba(100,100,255, 0.5);
+	width: auto;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 20px
+}
+#GlobalDiv {
+    width: 700px;
+    margin: 40px auto;
+    background: rgba(150,150,200,0.1);
+    font-size: 20px
+}
+#WhoLarge {
+	border-radius: 6px;
+	background-color: rgba(0,0,255,0.08);
+	padding: 20px;
+}
+.MinDiv {
+	background: rgba(0,0,255,0.15);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 10px 15px 15px rgba(0,0,0,0.2)
+	margin: 20px;
+}
+@media (max-width: 720px) {
+  .GlobalDiv {
+    width: 500px;
+  }
+}
+#BtnBlue {
+	background: blue;
+	color: white;
+	font-size:25px;
+	padding:10px 25px;
+}
+#BtnBlue:hover {
+	font-weight: normal;
+	color: yellow;
+	border-radius: 10px;
+}
+#List {
+	list-style: none;
+	padding-left: none;
+}
+#List li {
+	display:inline;
+	padding: 20px;
+}
+#list i {
+	font-size: 70px;
+	color: rgb(0,0,255);
+}
+#FirstDiv p {
+	margin-bottom: 30px;
+}
